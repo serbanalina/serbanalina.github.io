@@ -1,0 +1,36 @@
+/*Start Delete*/
+body{
+    background-color:  rgb(233, 233, 233);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition-property: all;
+    transition-duration: 0.2s;
+}
+
+dv{
+    border: 1px solid black;
+}
+
+/*End Delete*/
+
+
+.reve:hover{
+    color: rgb(244, 79, 66)
+}
+
+.tot{
+    margin: auto;
+    background-color: white;
+    width: fit-content;
+    -webkit-box-shadow: 5px 6px 41px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 6px 41px 0px rgba(0,0,0,0.75);
+    box-shadow: 5px 6px 41px 0px rgba(0,0,0,0.75);
+    
+}
+
+@media screen and (max-width: 800px) {
+    .tot{
+        -webkit-box-shadow: 0x 0px 0px 0px white;
+        -moz-box-shadow: 0px 0px 0px 0px white;
+        box-shadow: 0px 6px 0px 0px white;  
+    }
+}

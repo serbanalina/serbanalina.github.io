@@ -1,0 +1,153 @@
+h1{
+    color: #31859c;
+}
+
+h2{}
+
+h3{}
+
+.content{
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 48% 48%;
+    justify-content: space-between;
+    color: black;
+    padding: 2px;
+}
+
+.grid-loc{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.loc{
+    text-align: right;
+}
+
+.cont1{
+    border: 5px solid #fff;
+}
+
+.cont3{
+    border: 5px solid  #fff;
+}
+
+.cont4{
+    border: 5px solid  #fff;
+}
+
+.abilities{
+    border: 5px solid  #fff;
+}
+
+.abilitate{
+    margin: auto;
+    width: 96%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-weight: bold;
+
+}
+
+.abilitate-nivel{
+    text-align: right;
+    font-weight: normal;
+    font-style: oblique;
+}
+
+.progress-bar{
+    margin: auto;
+    width: 96%;
+    padding: 2.3px;
+    border-radius: 10px;
+    border: 3px solid #31859c;
+}
+
+.progress-bar-fill{
+    display: block;
+    height: 17px;
+    background-color: #31859c;
+    border-radius: 5px;
+}
+
+.languages{
+    margin: auto;
+    width: 96%;
+    display: grid;
+    grid-template-columns: 40% 12% 12% 12% 12% 12%;
+    padding: 5px;
+}
+
+.bullet{
+    display: block;
+    width: 17px;
+    height: 17px;
+    background-color: #31859c;
+    border-radius: 50%;
+    border: 3px solid #31859c;
+}
+
+.bullet-hole{
+    display: block;
+    width: 17px;
+    height: 17px;
+    background-color: rgb(238, 238, 238);
+    border-radius: 50%;
+    border: 3px solid #31859c;
+}
+
+.softskill{
+    width: 96%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: space-between;
+    padding: 8px;
+}
+
+.softskill-item{
+    padding: 8px;
+    background-color: #31859c;
+    border: 3px solid rgb(238, 238, 238);
+    border-radius: 10px;
+    color: rgb(238, 238, 238);
+}
+
+.hobby{
+    width: 96%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: space-between;
+    padding: 8px;
+}
+
+.hobby-item{
+    padding: 8px;
+    background-color: #31859c;
+    border: 3px solid rgb(238, 238, 238);
+    border-radius: 10px;
+    color: rgb(238, 238, 238);
+}
+
+.line{
+    display: block;
+    width: auto;
+    height: 2px;
+    background: black;
+}
+@media screen and (max-width: 800px) {
+    .content{
+        grid-template-columns: 100%;
+    }
+    .grid-loc{
+        grid-template-columns:  100%;
+    }
+    .loc{
+        text-align: left;
+    }
+}
